@@ -1,6 +1,18 @@
 import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-dotenv.config();
+// Fix __dirname for ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Correct path to backend/.env
+const envPath = path.resolve(__dirname, '../../.env');
+
+dotenv.config({ path: envPath });
+
+// DEBUG (remove later)
+console.log("ENV CHECK:", process.env.SUPABASE_URL);
 
 export const config = {
   server: {

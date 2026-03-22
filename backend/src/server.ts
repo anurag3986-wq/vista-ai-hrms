@@ -18,6 +18,9 @@ import uploadsRoutes from './routes/uploads.js';
 import interviewRoutes from './routes/interviews.js';
 import documentsRoutes from './routes/documents.js';
 
+import dotenv from 'dotenv';
+dotenv.config();
+
 const app = express();
 
 app.use(helmet());
