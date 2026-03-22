@@ -1,6 +1,6 @@
 # 🎯 VISTA AI HR SUITE - Enterprise HRMS Platform
 
-**Deployed Link:** https://vista-ai-hrms1.onrender.com
+**Deployed Link:** https://vista-ai-hrms-1.onrender.com
 > Production-ready Human Resource Management System with AI-powered features, built with React 18 + TypeScript frontend and Express.js + Node.js backend. **Powered by Supabase PostgreSQL** - fully scalable cloud-native database with real-time capabilities.
 
 ## 📋 Quick Overview
@@ -1006,7 +1006,7 @@ cd ../frontend && npm install
 **Last Updated:** November 20, 2025  
 **Database:** Supabase PostgreSQL  
 **GitHub:** https://github.com/anurag3986-wq/vista-ai-hr-suite
-**Deployed Link:** https://vista-ai-hrms1.onrender.com
+**Deployed Link:** https://vista-ai-hrms-1.onrender.com
 
 
 Made with ❤️ for efficient HR management  
