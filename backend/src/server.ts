@@ -25,7 +25,7 @@ const app = express();
 
 app.use(helmet());
 app.use(cors({
-  origin: config.server.frontendUrl,
+  origin: process.env.FRONTEND_URL,
   credentials: true,
 }));
 app.use(express.json({ limit: '10mb' }));
