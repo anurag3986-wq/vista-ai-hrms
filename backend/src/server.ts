@@ -85,7 +85,7 @@ app.use((req, res) => {
 
 app.use(errorHandler);
 
-const PORT = config.server.port;
+const PORT = process.env.PORT || config.server.port;
 
 const server = app.listen(PORT, () => {
   logger.info(`🚀 Server running on http://localhost:${PORT}`);
